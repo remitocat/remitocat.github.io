@@ -1,0 +1,85 @@
+# Config
+rss:            # link
+favicon:
+blog_logo:
+header_image: https://images.unsplash.com/photo-1516797045820-6edca89b2830?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2400&q=80
+keywords: blog
+
+# Menu
+menu:
+  ABOUT: /about
+  ARCHIVES: /archives
+  RSS: /atom.xml
+  # you can add here
+
+# author
+author_image: https://ja.gravatar.com/userimage/203893794/d81e3b5771b81f51c8f1219fa4533228.png?size=256
+author_bio:
+author_location: Tokyo, Japan
+
+# Social Links
+social:
+  weibo:
+  twitter: https://twitter.com/remitocat
+  mastodon: https://chillout.chat/@remito
+  github: https://github.com/remitocat
+  facebook:
+  telegram:
+  bilibili:
+  youtube:
+  # You only can use that I have added, I will keep adding
+
+# Footer Links
+footer_text:
+  # title: link
+  # 粤ICP备xxxxxxx号-x: http://www.miitbeian.gov.cn
+  # 粤公网安备xxxxxxx号: http://www.beian.gov.cn
+
+# Widget
+widgets:
+  recent_posts: false
+  category: true
+  tagcloud: true
+  # This is a simple theme, I think 3 is enough.
+
+# Post page fload header
+floadheader: false
+
+# Gallery
+# https://github.com/dimsemenov/PhotoSwipe
+photoswipe: true
+
+# LazyLoad
+# home page has enabled, this value is to post page
+# https://github.com/dinbror/blazy
+lazyload: true
+
+# Local Search
+local_search: true
+
+# Comment
+# https://valine.js.org
+comment: false
+valine:
+  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: false # Verification code
+  appId: # your leancloud application appid
+  appKey: # your leancloud application appkey
+  placeholder: Just go go # comment box placeholder
+  pageSize: 10 # pagination size
+  avatar: mm # gravatar style
+  visitor: true # page view record
+
+# PWA
+# you need create a manifest.json file in hexo's source folder
+manifest: false
+service_workers: false
+
+navColor: '3c484e'
+
+# Baidu Push
+baidu: false
+
+# Google Analytics
+googleAnalytics: false
+GA_TRACKING_ID: UA-XXXXXXXXXX-1
