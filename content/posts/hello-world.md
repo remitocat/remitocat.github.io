@@ -1,7 +1,7 @@
 ---
 title: "Hello, world"
 author: "Remito"
-date: 2021-08-05T11:00:00+09:00
+date: 2021-08-05T12:55:00+09:00
 draft: false
 categories: [uncategorized]
 ---
