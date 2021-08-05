@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://remito.chillout.chat/</loc>
+    <lastmod>2021-08-05T12:55:00+09:00</lastmod>
+  </url><url>
+    <loc>https://remito.chillout.chat/categories/</loc>
+    <lastmod>2021-08-05T12:55:00+09:00</lastmod>
+  </url><url>
+    <loc>https://remito.chillout.chat/posts/hello-world/</loc>
+    <lastmod>2021-08-05T12:55:00+09:00</lastmod>
+  </url><url>
+    <loc>https://remito.chillout.chat/posts/</loc>
+    <lastmod>2021-08-05T12:55:00+09:00</lastmod>
+  </url><url>
+    <loc>https://remito.chillout.chat/categories/uncategorized/</loc>
+    <lastmod>2021-08-05T12:55:00+09:00</lastmod>
+  </url><url>
+    <loc>https://remito.chillout.chat/about/</loc>
+    <lastmod>2021-05-02T19:06:23+09:00</lastmod>
+  </url><url>
+    <loc>https://remito.chillout.chat/tags/</loc>
+  </url>
+</urlset>

@@ -2,6 +2,7 @@ languageCode: "ja-JP"
 baseUrl: "https://remito.chillout.chat"
 title: "/home/remito"
 theme: "anubis"
+publishDir: "docs"
 paginate: 10
 disqusShortname: "remitocat"
 enableRobotsTXT: true

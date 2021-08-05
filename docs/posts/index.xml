@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on /home/remito</title>
+    <link>https://remito.chillout.chat/posts/</link>
+    <description>/home/remito (Posts)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Thu, 05 Aug 2021 12:55:00 +0900</lastBuildDate>
+    
+    <atom:link href="https://remito.chillout.chat/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello, world</title>
+      <link>https://remito.chillout.chat/posts/hello-world/</link>
+      <pubDate>Thu, 05 Aug 2021 12:55:00 +0900</pubDate>
+      
+      <guid>https://remito.chillout.chat/posts/hello-world/</guid>
+      <description>&lt;p&gt;個人サイトを &lt;code&gt;remito.pages.dev&lt;/code&gt; から &lt;code&gt;remito.chillout.chat&lt;/code&gt; に移転しました。&lt;/p&gt;
+&lt;p&gt;せっかく購入した &lt;code&gt;chillout.chat&lt;/code&gt; というドメインを活用しない手はありません。移転にあわせてサイトジェネレータを &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; に変更し，大幅なリニューアルも行いました。&lt;/p&gt;
+&lt;p&gt;このサイトの用途についてはまだ完全に決まっているわけではありませんが，移転前と同様 Fediverse には書ききれないような長めの文章をストックしておく場所として使っていきたいと思います。&lt;/p&gt;
+&lt;p&gt;将来的には &lt;code&gt;username.chillout.chat&lt;/code&gt; を自由に利用できるようなサービスを提供するかもしれません。今後詳細が決まり次第，改めてお知らせする予定です。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
