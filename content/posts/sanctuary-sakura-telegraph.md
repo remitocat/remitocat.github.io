@@ -19,7 +19,7 @@ categories: [doujin]
 - [Chillout Chat](https://chillout.chat)
 - [Pleroma/Chillout Chat](https://pleroma.chillout.chat)
 - [まちカdon](https://machikadon.online)
-- Milkey ※閉鎖中
+- [Milkey](https://milkey.homes)
 - [umaMilkey](https://uma.milkey.homes)
 
 当サークルでは，適正なサーバー管理を行うため，電気通信事業法に基づき電気通信事業者の届出を行っています。管理体制の移行後も，サーバーのモデレーションの方針が大きく変わることはありませんが，利用規約・プライバシーポリシーを一部変更する可能性があります。変更する場合は改めて各サーバーのお知らせアカウントより告知する予定です。
@@ -47,4 +47,4 @@ Fediverseを構成する技術に関する同人誌を執筆します。[コミ�
 - やなぎぃ ([@YanagieIsHere@chillout.chat](https://chillout.chat/@YanagieIsHere))
 - 三条れみと ([@remito@chillout.chat](https://chillout.chat/@remito))
 
-当サークルでは，Fediverseに関するソフトウェアに携わっている方・興味がある方の加入をお待ちしております。サークルに興味がありましたら，ぜひ [Discordサーバー](https://discord.gg/ZuWk5yVP3W) にご参加ください。
+2020-08-22 追記：Discordサーバーの招待リンクの公開を終了しました。
