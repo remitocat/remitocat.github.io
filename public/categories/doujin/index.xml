@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>doujin on /home/remito</title>
-    <link>https://remito.chillout.chat/categories/doujin/</link>
-    <description>/home/remito (doujin)</description>
+    <title>doujin on remito.jp</title>
+    <link>https://remito.jp/categories/doujin/</link>
+    <description>remito.jp (doujin)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <lastBuildDate>Sun, 08 Aug 2021 10:00:00 +0900</lastBuildDate>
     
-    <atom:link href="https://remito.chillout.chat/categories/doujin/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://remito.jp/categories/doujin/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>技術系同人サークル「桜ヶ丘電信」を立ち上げました</title>
-      <link>https://remito.chillout.chat/posts/sanctuary-sakura-telegraph/</link>
+      <link>https://remito.jp/posts/sanctuary-sakura-telegraph/</link>
       <pubDate>Sun, 08 Aug 2021 10:00:00 +0900</pubDate>
       
-      <guid>https://remito.chillout.chat/posts/sanctuary-sakura-telegraph/</guid>
+      <guid>https://remito.jp/posts/sanctuary-sakura-telegraph/</guid>
       <description>&lt;p&gt;昨日爆誕した技術系同人サークル「桜ヶ丘電信」について，今後の活動方針や立ち上げるまでの裏話について書きたいと思います。&lt;/p&gt;
 &lt;h2 id=&#34;1-サークルの概要活動内容&#34;&gt;1. サークルの概要・活動内容&lt;/h2&gt;
 &lt;p&gt;桜ヶ丘電信 ※以下「当サークル」は，Fediverseに関する活動を行う学生が中心となって立ち上げられた技術系同人サークルです。活動内容は様々ですが，主に以下の2つの活動が中心となる予定です。&lt;/p&gt;

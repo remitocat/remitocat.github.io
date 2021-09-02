@@ -1,6 +1,6 @@
 languageCode: "ja-JP"
-baseUrl: "https://remito.chillout.chat"
-title: "/home/remito"
+baseUrl: "https://remito.jp"
+title: "remito.jp"
 theme: "anubis"
 paginate: 10
 disqusShortname: "remito"
