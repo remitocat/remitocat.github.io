@@ -42,7 +42,7 @@ params:
         subtitle:
         avatar:
             enabled: true
-            local: true
+            local: false
             src: /img/me.png
 
     article:
