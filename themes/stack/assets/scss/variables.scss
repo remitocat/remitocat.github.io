@@ -53,22 +53,10 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 /**
 *   Global font family
 */
-@font-face {
-  font-family: "Koruri";
-  src: url("/font/Koruri/Koruri-Regular.woff") format("woff"),
-       url("/font/Koruri/Koruri-Regular.ttf") format("truetype");
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Koruri";
-  src: url("/font/Koruri/Koruri-Bold.woff") format("woff"),
-       url("/font/Koruri/Koruri-Bpld.ttf") format("truetype");
-  font-weight: bold;
-}
+@import url("https://koruri.remito.jp/koruri.css");
 
 :root {
-    --base-font-family: "Lato", "Koruri", sans-serif;
+    --base-font-family: "Koruri", sans-serif;
     --code-font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
