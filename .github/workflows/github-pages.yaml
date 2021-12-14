@@ -23,7 +23,7 @@ jobs:
           hugo-version: '0.87.0'
 
       - name: Build
-        run: hugo --minify
+        run: /home/runner/actions_hugo/bin/hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
