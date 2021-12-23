@@ -1,0 +1,219 @@
+<!doctype html><html lang=ja-jp>
+<head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Fediverse Advent Calendar 2021 23日目 こんばんは。三条れみと (@remito@chillout.chat) です。この記事では，技術系同人サークル「桜ヶ丘電信」が運営するサーバーのうち，私が管理に携わっている"><title>鯖缶年報 '21</title>
+<link rel=canonical href=https://remito.jp/2021/12/23/annual-report-2021/>
+<link rel=stylesheet href=/scss/style.min.css><meta property="og:title" content="鯖缶年報 '21">
+<meta property="og:description" content="Fediverse Advent Calendar 2021 23日目 こんばんは。三条れみと (@remito@chillout.chat) です。この記事では，技術系同人サークル「桜ヶ丘電信」が運営するサーバーのうち，私が管理に携わっている">
+<meta property="og:url" content="https://remito.jp/2021/12/23/annual-report-2021/">
+<meta property="og:site_name" content="Remito.jp">
+<meta property="og:type" content="article"><meta property="article:section" content="Post"><meta property="article:tag" content="Advent Calendar 2021"><meta property="article:published_time" content="2021-12-23T16:00:00+09:00"><meta property="article:modified_time" content="2021-12-23T16:00:00+09:00">
+<meta name=twitter:site content="@remitocat">
+<meta name=twitter:creator content="@remitocat"><meta name=twitter:title content="鯖缶年報 '21">
+<meta name=twitter:description content="Fediverse Advent Calendar 2021 23日目 こんばんは。三条れみと (@remito@chillout.chat) です。この記事では，技術系同人サークル「桜ヶ丘電信」が運営するサーバーのうち，私が管理に携わっている">
+</head>
+<body class="article-page has-toc">
+<script>(function(){const a='StackColorScheme';localStorage.getItem(a)||localStorage.setItem(a,"auto")})()</script><script>(function(){const b='StackColorScheme',a=localStorage.getItem(b),c=window.matchMedia('(prefers-color-scheme: dark)').matches===!0;a=='dark'||a==='auto'&&c?document.documentElement.dataset.scheme='dark':document.documentElement.dataset.scheme='light'})()</script>
+<div class="container main-container flex
+extended">
+<div id=article-toolbar>
+<a href=/ class=back-home><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="15 6 9 12 15 18"/></svg>
+<span>Back</span>
+</a>
+</div>
+<main class="main full-width">
+<article class=main-article>
+<header class=article-header>
+<div class=article-details>
+<header class=article-category>
+<a href=/categories/fediverse/>
+fediverse
+</a>
+</header>
+<h2 class=article-title>
+<a href=/2021/12/23/annual-report-2021/>鯖缶年報 '21</a>
+</h2>
+<footer class=article-time>
+<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
+<time class=article-time--published>2021-12-23</time>
+</div>
+<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
+<time class=article-time--reading>
+5 minute read
+</time>
+</div>
+</footer>
+</div>
+</header>
+<section class=article-content>
+<p><strong><a class=link href=https://adventar.org/calendars/6230 target=_blank rel=noopener>Fediverse Advent Calendar 2021</a> 23日目</strong></p>
+<p>こんばんは。三条れみと (<a class=link href=https://chillout.chat/@remito target=_blank rel=noopener>@remito@chillout.chat</a>) です。この記事では，技術系同人サークル「桜ヶ丘電信」が運営するサーバーのうち，私が管理に携わっている4つのサーバーを紹介するとともに，2021年に起こったサーバーに関する主な出来事を振り返っていきたいと思います。</p>
+<h2 id=chillout-chat>Chillout Chat</h2>
+<ul>
+<li>URL: <a class=link href=https://chillout.chat target=_blank rel=noopener>chillout.chat</a></li>
+<li>GitHub: <a class=link href=https://github.com/sakura-tel/mastodon target=_blank rel=noopener>sakura-tel/mastodon</a></li>
+</ul>
+<p>Chillout Chatは，3月5日にオープンしたMastodonサーバーです。私とやなぎぃ氏 (<a class=link href=https://chillout.chat/@YanagieIsHere target=_blank rel=noopener>@YanagieIsHere@chillout.chat</a>) が中心となって運営していますが，モデレーションは桜ヶ丘電信のメンバー全員で行っています。</p>
+<h3 id=コンセプト>コンセプト</h3>
+<p>Chillout Chatには，2つのコンセプトがあります。</p>
+<p>1つ目のコンセプトは，<strong>音楽を聴くのが好きな人が集まり，くつろげるようなサーバー</strong> です。 サーバー名の由来となった chill out という言葉は，落ち着くことを表すだけでなく，スローテンポでリラックスさせるような音楽を形容することもあります。chill outな音楽に限らず，様々なジャンルの音楽を愛好する人が交流できるような空間であってほしいと思っています。</p>
+<p>2つ目のコンセプトは，<strong>安心して過ごせる居場所となるようなサーバー</strong> です。Fediverseには様々なサーバー・インスタンスがありますが，その中でも特に居心地が良いと思ってもらえるような環境づくりを心がけています。</p>
+<p>桜ヶ丘電信では，このコンセプトを実現するために，ユーザーを守るためのモデレーションを重要視しています。先述したように，モデレーションに取り掛かかる人員を増やしているのは，トラブルが起こった際に，迅速で公正な措置がとれるようにするためです。一方で，ユーザーが自由に利用できるような空間をつくることも重要です。そのため，利用規約に反しない限り，管理者がユーザーの行動に対して一切干渉しないことをモデレーションの大原則としています。</p>
+<h3 id=独自機能>独自機能</h3>
+<p>Chillout Chatに導入されている主な独自機能を紹介します。</p>
+<h4 id=koruriフォント>Koruriフォント</h4>
+<p>デフォルトのフォントとして，M+ OUTLINE FONTSとOpen Sansを合成させたKoruriフォントを導入しています。<a class=link href=https://koruri.chillout.chat target=_blank rel=noopener>koruri.chillout.chat</a> からGoogle Fontsと同じ要領で読み込んでいます。</p>
+<h4 id=トロピカルテーマ>トロピカルテーマ</h4>
+<p><figure>
+<a href=https://uma.milkey.homes/files/d8c99fe0-7fc3-4878-ab68-51b4f707b0b4/d8c99fe0-7fc3-4878-ab68-51b4f707b0b4.png>
+<img src=https://uma.milkey.homes/files/d8c99fe0-7fc3-4878-ab68-51b4f707b0b4/d8c99fe0-7fc3-4878-ab68-51b4f707b0b4.png loading=lazy>
+</a>
+</figure></p>
+<p>みねむ氏 (<a class=link href=https://machikadon.online/@Minemu483K target=_blank rel=noopener>@Minemu483K@machikadon.online</a>) がデザインしたサイトテーマです。</p>
+<blockquote>
+<p>本来はグラデーション使った面白いテーマにするつもりだったのですが，思いの外ダサくなってしまい，ダサくて南国っぽいテーマとして方向転換したのが「トロピカルばれいしょテーマ」です。「ばれいしょ」は我々が崇めている2年前に失踪したMastodonユーザーのハンドルネームが由来となっています。</p>
+<p>(みねむ氏の紹介)</p>
+</blockquote>
+<h4 id=cat機能>Cat機能</h4>
+<p><figure>
+<a href=https://uma.milkey.homes/files/2505fb9f-6ca2-4fa9-9cca-a4a71923e6f4/2505fb9f-6ca2-4fa9-9cca-a4a71923e6f4.gif>
+<img src=https://uma.milkey.homes/files/2505fb9f-6ca2-4fa9-9cca-a4a71923e6f4/2505fb9f-6ca2-4fa9-9cca-a4a71923e6f4.gif loading=lazy>
+</a>
+</figure></p>
+<p>Misskeyの機能をMastodonに移植したものです。<a class=link href=https://github.com/accelforce/mastodon/tree/custom/cat target=_blank rel=noopener>小田急丼の実装</a> をベースとして，アイコンに猫耳が生えるように改良を加えました。猫耳が生えると幸せになれますね。</p>
+<h3 id=姉妹サーバーchillroma>姉妹サーバー・Chillroma</h3>
+<ul>
+<li>URL: <a class=link href=https://pleroma.chillout.chat target=_blank rel=noopener>pleroma.chillout.chat</a></li>
+</ul>
+<p>Chillout Chat の避難所として開設されたPleromaサーバーです。桜ヶ丘電信のサーバーとしては珍しく，何もカスタマイズをしていないバニラで運用しています。周知もあまりしなかったため，過疎状態となってしまいました。VPSへの負荷はあまりかからないため，過疎状態であっても運用を継続することはできますが，管理者としては盛り上げたいところです。</p>
+<h2 id=milkey>Milkey</h2>
+<p><figure>
+<a href=https://uma.milkey.homes/files/77be7701-a53f-47f9-8316-fa7c1213e6e0/77be7701-a53f-47f9-8316-fa7c1213e6e0.png>
+<img src=https://uma.milkey.homes/files/77be7701-a53f-47f9-8316-fa7c1213e6e0/77be7701-a53f-47f9-8316-fa7c1213e6e0.png loading=lazy>
+</a>
+</figure></p>
+<ul>
+<li>URL: <a class=link href=https://milkey.homes target=_blank rel=noopener>milkey.homes</a></li>
+<li>GitHub: <a class=link href=https://github.com/sakura-tel/groundpolis target=_blank rel=noopener>sakura-tel/groundpolis</a></li>
+</ul>
+<p>Milkeyは，3月30日にChillout Chatのリソースを活用して生まれたインスタンスです。インスタンス名はメディアミックスプロジェクト「Project MILKY HOLMES」にちなんでいます。</p>
+<p>開設した当初はMisskeyサーバーとして運用していましたが，夏に私のミスが原因でデータベースが破壊され，休止せざるを得ない状況となりました。そのまま閉鎖することも考えていましたが，10月には「データベースをリセットし，過去に使用していたユーザー名で登録できないようにする」という，Misskey.ioと同様の方法で復旧させることができました。</p>
+<p>復旧後はGroundpolisサーバーとして再始動し，Groundpolisの新機能実装に貢献しています。また，VPSをChillout Chatと共用のものから，ConoHaの東京リージョンに移転して運用しているため，Chillout Chatが使えない時の避難所としての役割も期待されています。</p>
+<h3 id=姉妹インスタンスumamilkey>姉妹インスタンス・umaMilkey</h3>
+<p><figure>
+<a href=https://uma.milkey.homes/files/a4d2c250-e996-43d3-9f84-b19796300af6/a4d2c250-e996-43d3-9f84-b19796300af6.png>
+<img src=https://uma.milkey.homes/files/a4d2c250-e996-43d3-9f84-b19796300af6/a4d2c250-e996-43d3-9f84-b19796300af6.png loading=lazy>
+</a>
+</figure></p>
+<ul>
+<li>URL: <a class=link href=https://uma.milkey.homes target=_blank rel=noopener>uma.milkey.homes</a></li>
+<li>GitHub: <a class=link href=https://github.com/sakura-tel/misskey-v11 target=_blank rel=noopener>sakura-tel/misskey-v11</a></li>
+</ul>
+<p>Milkeyが休止している間の代替インスタンスとして生まれたのがumaMilkeyです。サーバー名の"uma"には，今年流行したスマホゲームの「ウマ娘 プリティーダービー」や，「突然作られた未確認生物のような存在」という，インスタンスが誕生した経緯にちなんでいます。</p>
+<p>ソフトウェアにはumaMilkey向けにカスタマイズされたMisskey v11を使用しています。umaMilkeyのヘビーユーザーである，ｺﾓﾊﾁｰﾖこと藤敷菰八氏 (<a class=link href=https://misskey.io/@FS5 target=_blank rel=noopener>@FS5@misskey.io</a>) も開発に携わっており，様々な独自機能が実装されています。</p>
+<p>Milkeyが復旧してからは，代替サーバーとしての役割を失いましたが，競馬やウマ娘の話題を取り扱うサーバーとして盛り上がっています。有馬記念が楽しみですね。</p>
+<h2 id=2022年に向けて>2022年に向けて</h2>
+<p>2021年は，Milkeyの長期間休止をはじめとした，多くのインシデントを発生させてしまった1年でした。2022年はより手堅い運用を心がけ，サーバーの安定稼働に努めていきたいと思います。また，桜ヶ丘電信のメンバーが受験勉強や就職活動を終えるため，Fediverseに関する新しいプロジェクトに取り組んでいきたいと思います。具体的には，桜ヶ丘電信 Advent Calendar 25日目の記事で紹介する予定であるMetaFediverse構想の実現や，Chillout Chatの大改修に向けて動く予定です。2022年もどうぞよろしくお願いします。</p>
+</section>
+<footer class=article-footer>
+<section class=article-tags>
+<a href=/tags/advent-calendar-2021/>Advent Calendar 2021</a>
+</section>
+<section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg>
+<span>Licensed under CC BY-NC-SA 4.0</span>
+</section>
+</footer>
+</article>
+<aside class=related-contents--wrapper>
+</aside>
+<div class=disqus-container>
+<div id=disqus_thread></div>
+<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//remito.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</div>
+<style>.disqus-container{background-color:var(--card-background);border-radius:var(--card-border-radius);box-shadow:var(--shadow-l1);padding:var(--card-padding)}</style>
+<script>window.addEventListener('onColorSchemeChange',a=>{DISQUS&&DISQUS.reset({reload:!0})})</script>
+<footer class=site-footer>
+<section class=copyright>
+&copy;
+2021 Remito.jp
+</section>
+<section class=powerby>
+Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> <br>
+Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.5.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a>
+</section>
+</footer>
+<div class=pswp tabindex=-1 role=dialog aria-hidden=true>
+<div class=pswp__bg></div>
+<div class=pswp__scroll-wrap>
+<div class=pswp__container>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+</div>
+<div class="pswp__ui pswp__ui--hidden">
+<div class=pswp__top-bar>
+<div class=pswp__counter></div>
+<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title=Share></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+<div class=pswp__preloader>
+<div class=pswp__preloader__icn>
+<div class=pswp__preloader__cut>
+<div class=pswp__preloader__donut></div>
+</div>
+</div>
+</div>
+</div>
+<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+<div class=pswp__share-tooltip></div>
+</div>
+<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+</button>
+<div class=pswp__caption>
+<div class=pswp__caption__center></div>
+</div>
+</div>
+</div>
+</div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css integrity="sha256-c0uckgykQ9v5k+IqViZOZKc47Jn7KQil4/MP3ySA3F8=" crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE=" crossorigin=anonymous>
+</main>
+<aside class="sidebar right-sidebar sticky">
+<section class="widget archives">
+<div class=widget-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg>
+</div>
+<h2 class="widget-title section-title">Table of contents</h2>
+<div class=widget--toc>
+<nav id=TableOfContents>
+<ol>
+<li><a href=#chillout-chat>Chillout Chat</a>
+<ol>
+<li><a href=#コンセプト>コンセプト</a></li>
+<li><a href=#独自機能>独自機能</a>
+<ol>
+<li><a href=#koruriフォント>Koruriフォント</a></li>
+<li><a href=#トロピカルテーマ>トロピカルテーマ</a></li>
+<li><a href=#cat機能>Cat機能</a></li>
+</ol>
+</li>
+<li><a href=#姉妹サーバーchillroma>姉妹サーバー・Chillroma</a></li>
+</ol>
+</li>
+<li><a href=#milkey>Milkey</a>
+<ol>
+<li><a href=#姉妹インスタンスumamilkey>姉妹インスタンス・umaMilkey</a></li>
+</ol>
+</li>
+<li><a href=#2022年に向けて>2022年に向けて</a></li>
+</ol>
+</nav>
+</div>
+</section>
+</aside>
+</div>
+<script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin=anonymous defer></script><script type=text/javascript src=/ts/main.js defer></script>
+<script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
+</body>
+</html>
